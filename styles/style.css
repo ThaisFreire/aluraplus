@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background:#00030C;
+    --primary-color: #ffffff;
+    --secondary-color: #C0C0C0;
+    --button-color: #167BF7;
+    --button-hover: #3c92fa;
+}
+
+body{
+    background-color: var(--background);
+    color: var(--primary-color);
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+}
+
+footer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container__section__banner__top{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../assets/Background.png');  
+    background-repeat: no-repeat;
+    height: 680px;
+    width: 100vw;
+}
+.banner__top{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 680px;
+    color: var(--primary-color);
+    font-size: 28px;
+    font-weight: 600;
+    gap:24px;
+}
+.container__button__highlighted{
+    background-color: var(--button-color);
+    color: var(--primary-color);
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 512px;
+    height: 56px;
+}
+.container__button__highlighted__small{
+    background-color: var(--button-color);
+    color: var(--primary-color);
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    padding: 16px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 163px;
+    height: 56px;
+}
+.container__button__default{    
+    color: var(--primary-color);
+    text-decoration: none;
+    text-align: center;
+    border: solid 1px var(--primary-color);
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 512px;
+    height: 56px;
+    
+}
+.container__button__default:hover , .container__button__highlighted:hover, .container__button__highlighted__small:hover{
+    background-color: var(--button-hover); 
+    color: var(--background);
+}
+.container__section__banner__top__text{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin: 125px 0 0 54px;
+    width: 588px;
+    height: 431px;
+}
+.container__section__disclaimer{    
+    font-size: 12px;
+    color: var(--secondary-color);
+}
+
+.container__section__img{
+    width: 348px;
+    height: 100px;
+    text-align: center;
+}
+.container_section_plataform{
+    display: flex;    
+    align-items: center;
+    gap: 40px;
+    margin: 80px 0 220px 0;
+}
+.container__section__plataform__text{
+    display: flex;
+    flex-direction: column;
+    width: 588px;
+    height: 160px;
+}
+.container__section__plataform__text__left{
+    display: flex;
+    flex-direction: column;
+    width: 588px;
+    height: 160px;
+    margin-left: 120px;
+    gap: 16px;
+}
+
+.container__section__title{
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+.container__section__plataform__img{
+    margin-left: 165px;
+}
+.container__section__devices{
+    display: flex;    
+    align-items: center;    
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 155px;
+    margin-bottom: 120px;
+    width: 1154px;
+    height: 344px;
+}
+.container__section__device__itens{
+    display: flex;    
+    align-items: center;
+    gap: 16px;   
+}
+.container__section__device__item{
+    display: flex;    
+    align-items: center;
+    flex-direction: column;
+}
+.container__section__device__text{
+    font-size: 32px;
+    font-weight: 600;
+}
+.footer__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    height: 208px;
+    width: 1200px;    
+}
+.footer__navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 80px;
+    width: 100vw;    
+}
+.footer__nav__item{
+    font-size: 16px;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+.footer__nav__item:hover{
+    color: var(--button-color);
+}
+.footer__nav__item:active{
+    color: purple;
+}
+.footer__disclaimer{
+    font-size: 14px;
+    color: var(--secondary-color);
+    text-align: center;
+}
